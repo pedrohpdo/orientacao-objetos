@@ -25,7 +25,7 @@ Encapsular código determina que seu uso seja mais fácil, e que não seja neces
 ## E o que são cápsulas?
 
 <p>
-    <img src="assets/ex02.jpg">
+    <img src="assets/ex02.png">
 </p>
 
 O próprio objeto é a cápsula. Lembrando que o próprio objeto é um agrupador, onde nele estão agrupados uma série de atributos e métodos. E o fato de agruparmos essas informações nos gera a possibilidade de podermos encapsular dados desse objeto para que isso não seja acessível a nenhum outro local do seu sistema. Isso diz respeito ao nível de segurança do seu código.

@@ -17,7 +17,7 @@ Imagine duas classes que interagem entre si. Um método chama o outro, esse mesm
 Agora imagine que temos duas classes com apenas dois métodos vísiveis, que interagem entre si o restante é privado. Percebe que, agora o nível de encapsulmento é maior e consequentemente, o impacto gerado entre as classes deve ser bem menor.
 
 <p>
-    <img src="assets/ex01.jpg">
+    <img src="assets/ex01.png">
 </p>
 
 Encapsular código determina que seu uso seja mais fácil, e que não seja necessário que determinadas entidades saibam o que acontece debaixo dos panos, melhorando a comunicação entre entidades. Quanto mais encapsulado seu programa for, menores são as chances de você ter problemas no relacionamento das entidades.

@@ -16,5 +16,8 @@ Se tratam do conjunto de interfaces e métodos que são fornecidos para o usuár
 ## JDBC Drivers
 Software específico para um determinando banco de dados. É responsável por fornecer a comunicação de dados entre a aplicação Java e o banco de dados, tendo a responsabilidade de traduzir os comandos passados pela API JDBC para comandos e protocolos nativos do banco de dados utizado.
 Cada banco de dados requer um driver específico para fazer funcionar.
-
+<hr>
 Elaborando uma linha compreensiva de eventos, podemos mapear a interação dessa forma:
+<p>
+    <img src="assets/jdbc.png" alt="img-fluxo">
+</p>

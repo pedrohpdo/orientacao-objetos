@@ -10,4 +10,4 @@ Espero que gostem!
 ### [Herança - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/Herança.md)
 ### [Polimorfismo - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/jdbc.md)
 
-### [Java + JDBC]
+### [Java + JDBC](https://github.com/pedrohpdo/EstudosJava/blob/main/jdbc/jdbc.md)

@@ -102,8 +102,8 @@ Mas vamos inserir dados dentro da sua tabela:
                 String comandoSql = "INSERT INTO nomeTabela (coluna1, coluna2) VALUES (?, ?)";
                 PrepareStatement stmt = connection.prepareStatement(comandoSql)
 
-                String param1 = stmt.setString(1, value1);            
-                String param2 = stmt.setString(2, value2);            
+                stmt.setString(1, value1);            
+                stmt.setString(2, value2);            
                 
                 stmt.execute();
 

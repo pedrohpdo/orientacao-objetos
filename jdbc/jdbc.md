@@ -56,11 +56,11 @@ Em primeiro plano, faz sentido pensar que, para conectar a base de dados, precis
     import java.sql.DriveManager;
     import java.sql.Connection;
 
-    public class Project{
+    public class Project {
         public static void main(String[] args) {
 
             try {
-                final String url = "jdbc:mysql://localhost:3306";
+                final String url = "jdbc:mysql://localhost:3306/nomeDatabase";
                 final String user = "yourUsername";
                 final String password = "yourPassword";
 
@@ -81,3 +81,70 @@ Aqui já começam as primeiras considerações:
     <li>Todas os métodos de java.sql lançam uma exceção checada, que não é válido saber detalhes, mas isso implica dizer que você deve "tratar" essa exceção, por isso o uso obrigatório do bloco try/catch.
     <li>Sobre a url: "localhost:3306" é o nome do seu servidor local(Criado por padrão ao baixar o mysql), mas se você tiver outro servidor criado e quiser usá-lo, só trocar o nome do servidor na url.
 </ul>
+
+### Inserido elementos / Comandos Indiretos (Parâmetros)
+Agora vamos inserir dentro da sua base de dados. Aqui eu já vou levar em conta que estamos com a base de dados e tabelas já criadas. Lembre-se que para acessar seu banco, sua conexão deve estar aberta, <strong>então sugiro que a abertura da conexão seja um método a parte</strong>, já que ela sempre vai ser usada.
+
+Mas vamos inserir dados dentro da sua tabela:
+
+````java
+    import java.sql.Exception;
+    import java.sql.DriveManager;
+    import java.sql.Connection;
+
+    public class Project {
+        public static void main(String[] args) {
+
+            try {
+                Connection connection = FabricaDeConexao.conectar();
+
+                String comandoSql = "INSERT INTO nomeTabela (coluna1, coluna2) VALUES (?, ?)";
+                PrepareStatement stmt = connection.prepareStatement(comandoSql)
+
+                String param1 = stmt.setString(1, value1);            
+                String param2 = stmt.setString(2, value2);            
+                
+                stmt.execute();
+
+                connection.close();
+
+            } catch (SQLException e) {
+
+            }
+        }
+    }
+
+````
+Veja que a conexão e os comandos sql serão constantes na implementação, as variáveis dentro do comandoSql agora são substituídas por "?". Mas aqui existem algumas considerações a serem feitas:
+<ul>
+    <li>Como estamos tratando de uso de parâmetros, utilizamos a interface PrepareStatement para utilizar querys indiretas. É uma interface mais segura, recomadada para essa situação, o que também justifica o uso do método setString() para implementar os parâmetros dentro da query.
+    <li>Sempre fechar a conexão após o uso.
+</ul>
+
+### Atualizar Registro / Comandos Diretos (Sem parâmetros)
+Agora vamos utilizar uma outra abordagem para introduzir comandos sql, mas dessa vez, vamos utilizar a interface Statement, que é mais utilizada para comandos diretos, sem utilização de parâmetros. Vamos ver isso tentando atualizar algum registro dentro do banco.
+
+````java
+    import java.sql.Exception;
+    import java.sql.DriveManager;
+    import java.sql.Connection;
+
+    public class Project{
+        public static void main(String[] args) {
+
+            try {
+                Connection connection = FabricaDeConexao.conectar();
+                String comandoSql = "UPDATE project SET column = 'alguma coisa' WHERE ID = '1'";
+
+                Statement stmt = connection.Statement(comandoSql);
+                stmt.execute();
+                connection.close();    
+
+
+            } catch (SQLException e) {
+
+            }
+        }
+    }
+````
+Segue quase a mesma lógica, mas é interessante mostrar, provavelmente você deve se deparar com isso em algum momento.

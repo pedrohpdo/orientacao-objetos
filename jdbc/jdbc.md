@@ -44,3 +44,40 @@ Agora vamos incorporar o Driver no seu projeto. Na sua IDE (Estou usando o eclip
 </p>
 
 Agora adicione o driver que acabamos de baixar dentro dessa pasta criada. Você pode tanto fazer pelo explorador de arquivos dentro do sistema, como você pode copiar e colocar direto para o eclipse.
+
+# Hora de Brincar
+Agora vamos, de fato entrar em código e fazer nossas primeiras implementações. Algumas considerações vão ser levantadas ao longo do desenvolvimento, mas vamos citá-las a medida que elas aparecem, para fazer sentido.
+
+### Conectando a Base de Dados
+Em primeiro plano, faz sentido pensar que, para conectar a base de dados, precisamos dos parametros para acessá-la, que vão ser a <strong>url</strong>, o <strong>usuário</strong> e a <strong>senha</strong>. Dentro de código, podemos implementar da seguinte forma:
+
+````java
+    import java.sql.Exception;
+    import java.sql.DriveManager;
+    import java.sql.Connection;
+
+    public class Project{
+        public static void main(String[] args) {
+
+            try {
+                final String url = "jdbc:mysql://localhost:3306";
+                final String user = "yourUsername";
+                final String password = "yourPassword";
+
+                Connection connection = DriveManager.getConnection(url, user, password);
+
+            } catch (SQLException e) {
+
+            }
+        }
+    }
+
+````
+Dessa forma, através dos parâmetros, podemos testar se nossa conexão vai ser bem sucedida. Ao executar, caso não apareça nada ou uma mensagem de <strong>advertência</strong>(E não de erro), quer dizer que funcionou e podemos seguir a diante.
+
+Aqui já começam as primeiras considerações:
+<ul>
+    <li>Todas as nossas importações serão feitas a partir de "java.sql."
+    <li>Todas os métodos de java.sql lançam uma exceção checada, que não é válido saber detalhes, mas isso implica dizer que você deve "tratar" essa exceção, por isso o uso obrigatório do bloco try/catch.
+    <li>Sobre a url: "localhost:3306" é o nome do seu servidor local(Criado por padrão ao baixar o mysql), mas se você tiver outro servidor criado e quiser usá-lo, só trocar o nome do servidor na url.
+</ul>

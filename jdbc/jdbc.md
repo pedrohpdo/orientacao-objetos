@@ -91,6 +91,7 @@ Mas vamos inserir dados dentro da sua tabela:
     import java.sql.Exception;
     import java.sql.DriveManager;
     import java.sql.Connection;
+    import java.sql.PreparedStatement;
 
     public class Project {
         public static void main(String[] args) {
@@ -128,8 +129,9 @@ Agora vamos utilizar uma outra abordagem para introduzir comandos sql, mas dessa
     import java.sql.Exception;
     import java.sql.DriveManager;
     import java.sql.Connection;
+    import java.sql.Statement;
 
-    public class Project{
+    public class Project {
         public static void main(String[] args) {
 
             try {
@@ -148,3 +150,48 @@ Agora vamos utilizar uma outra abordagem para introduzir comandos sql, mas dessa
     }
 ````
 Segue quase a mesma lógica, mas é interessante mostrar, provavelmente você deve se deparar com isso em algum momento.
+
+### Consulta de Dados / Ler Registros
+Agora vamos para a parte mais complexa ou diferente do que diz respeito a manipulação de dados dentro do banco (pelo menos nesse ponto dos estudos). Aqui vamos entrar com outros tipos de dados mais específicos, mas a garanto que é tranquilo de entender.
+
+Aqui, já adiantando que vamos trabalhar com o tipo ResultSet, que é o retorno da consulta do banco de dados. Ao contrário do que possa parecer, a consulta que vamos fazer no banco não retorna um tipo String ou algo do tipo, mas é retornado uma tabela, e precisamos saber como manipular isso correntamente.
+
+````java
+    import java.sql.Exception;
+    import java.sql.DriveManager;
+    import java.sql.Connection;
+    import java.sql.ResultSet;
+    import java.sql.Statement;
+
+    public class Project {
+        public static void main(String[] args) {
+
+            try {
+                Connection connection = FabricaDeConexao.conectar();
+                Statement stmt = connection.createStatement();
+                String comandoSql = "SELECT * FROM project";
+
+                ResultSet result = stmt.executeQuery(comandoSql);
+                
+                while (result.next()) {
+                    //Manipulação das linhas retornadas pelo banco.
+                    result.getInt("columnName");
+                    result.getString("columnName");
+                }
+
+                stmt.execute();
+                connection.close();    
+
+
+            } catch (SQLException e) {
+                
+                }
+        }
+    }
+````
+Um objeto do tipo result set retorna a consulta sql em formato de linhas, algo bem parecido com uma tabela. Mas aqui vão algumas considerações
+
+<ul>
+    <li> Os valores de cada coluna obedecem a ordem de precedência que está descrita no seu banco. Ou seja, caso no seu banco estejam "nome", "idade", o retorno delas também vai ser nessa ordem/
+    <li> Para resgatar os valores de cada coluna, é utilizado o método getType("columnName"). Mas atente-se, o nome da coluna que é usada no parâmetro deve ser EXATAMENTE IGUAL ao nome da coluna do banco.
+</ul>

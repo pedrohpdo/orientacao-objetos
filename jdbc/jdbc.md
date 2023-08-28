@@ -21,7 +21,7 @@ Cada banco de dados requer um driver específico para fazer funcionar.
 Elaborando uma linha compreensiva de eventos, podemos mapear a interação dessa forma:
 
 <p>
-    <img src="assets/jdbc.png" alt="img-fluxo">
+    <img src="assets/apifluxo.png" alt="img-fluxo">
 </p>
 
 # Preparando o ambiente

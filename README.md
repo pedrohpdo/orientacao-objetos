@@ -5,8 +5,8 @@ Espero que gostem!
 
 ## Contents
 
-### [Abstração - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/Abstração.md)
-### [Encapsulamento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/Encapsulamento.md)
-### [Herança - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/Herança.md)
-### [Polimorfismo - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/jdbc.md)
-### [JDBC](https://github.com/pedrohpdo/EstudosJava/blob/main/jdbc/jdbc.md)
+### [Abstração - Loading](https://github.com/pedrohpdo/aulas-java/blob/main/Encapsulamento/Abstração.md)
+### [Encapsulamento](https://github.com/pedrohpdo/aulas-java/blob/main/Encapsulamento/Encapsulamento.md)
+### [Herança - Not Yet](https://github.com/pedrohpdo/aulas-java)
+### [Polimorfismo - Not Yet](https://github.com/pedrohpdo/aulas-java)
+### [JDBC](https://github.com/pedrohpdo/aulas-java/blob/main/jdbc/jdbc.md)

@@ -5,7 +5,7 @@ Espero que gostem!
 
 ## Contents
 
-### [Abstração - Loading](https://github.com/pedrohpdo/aulas-java/blob/main/Encapsulamento/abstração.md)
+### [Abstração - Loading](https://github.com/pedrohpdo/aulas-java/blob/main/Encapsulamento/abstracao.md)
 ### [Encapsulamento](https://github.com/pedrohpdo/aulas-java/blob/main/Encapsulamento/encapsulamento.md)
 ### [JDBC](https://github.com/pedrohpdo/aulas-java/blob/main/jdbc/jdbc.md)
 ### [Herança - Not Yet](https://github.com/pedrohpdo/aulas-java)

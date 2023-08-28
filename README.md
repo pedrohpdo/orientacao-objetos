@@ -9,5 +9,4 @@ Espero que gostem!
 ### [Encapsulamento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/Encapsulamento.md)
 ### [Herança - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/Herança.md)
 ### [Polimorfismo - Em Desenvolvimento](https://github.com/pedrohpdo/EstudosJava/blob/main/Encapsulamento/jdbc.md)
-
-### [Java + JDBC](https://github.com/pedrohpdo/EstudosJava/blob/main/jdbc/jdbc.md)
+### [JDBC](https://github.com/pedrohpdo/EstudosJava/blob/main/jdbc/jdbc.md)

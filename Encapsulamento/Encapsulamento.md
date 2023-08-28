@@ -17,7 +17,7 @@ Imagine duas classes que interagem entre si. Um método chama o outro, esse mesm
 Agora imagine que temos duas classes com apenas dois métodos vísiveis, que interagem entre si o restante é privado. Percebe que, agora o nível de encapsulmento é maior e consequentemente, o impacto gerado entre as classes deve ser bem menor.
 
 <p>
-    <img src="assets/example1.png.png">
+    <img src="assets/example1.png">
 </p>
 
 Encapsular código determina que seu uso seja mais fácil, e que não seja necessário que determinadas entidades saibam o que acontece debaixo dos panos, melhorando a comunicação entre entidades. Quanto mais encapsulado seu programa for, menores são as chances de você ter problemas no relacionamento das entidades.
@@ -25,7 +25,7 @@ Encapsular código determina que seu uso seja mais fácil, e que não seja neces
 ## E o que são cápsulas?
 
 <p>
-    <img src="assets/capsula.png.png">
+    <img src="assets/capsula.png">
 </p>
 
 O próprio objeto é a cápsula. Lembrando que o próprio objeto é um agrupador, onde nele estão agrupados uma série de atributos e métodos. E o fato de agruparmos essas informações nos gera a possibilidade de podermos encapsular dados desse objeto para que isso não seja acessível a nenhum outro local do seu sistema. Isso diz respeito ao nível de segurança do seu código.
@@ -59,7 +59,7 @@ public class Pessoa {
 A princípio, temos 4 modificadores de acesso em Java:
 
 <p>
-    <img src="assets/camadas.png.jpg">
+    <img src="assets/camadas.jpg">
 </p>
 
 ## Public

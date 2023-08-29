@@ -5,8 +5,8 @@ Espero que gostem, principalmente você iniciante!
 
 ## Contents
 
-### [Abstração - Loading](https://github.com/pedrohpdo/aulas-java/blob/main/Abstracao/abstracao.md)
-### [Encapsulamento](https://github.com/pedrohpdo/aulas-java/blob/main/Encapsulamento/encapsulamento.md)
-### [JDBC](https://github.com/pedrohpdo/aulas-java/blob/main/jdbc/jdbc.md)
+### [Abstração - Loading](https://github.com/pedrohpdo/aulas-java/blob/main/src/Abstracao/abstracao.md)
+### [Encapsulamento](https://github.com/pedrohpdo/aulas-java/blob/main/src/Encapsulamento/encapsulamento.md)
+### [JDBC](https://github.com/pedrohpdo/aulas-java/blob/main/src/jdbc/jdbc.md)
 ### [Herança - Not Yet](https://github.com/pedrohpdo/aulas-java)
 ### [Polimorfismo - Not Yet](https://github.com/pedrohpdo/aulas-java)

@@ -45,7 +45,7 @@ Agora vamos entender usar a gigantesca AMAZON para fazer um contraponto. Pense n
 ````
 E tenho certeza que essa implementação de ser algo próximo da realidade. Mas percebe como a mesma entidade demanda umas abstração diferente
 
-# Nem toda asbtração tem um correspondente
+# Nem toda abstração tem um correspondente
 Exatamente. Mesmo que a premissa da Orientação a Objetos seja olhar para o mundo real e trazer isso para dentro do seu software, eventualmente você vai se deparar com uma implementação que só faz sentido dentro do contexto do seu software.
 
 ## Mudando de Exemplo,
@@ -53,3 +53,4 @@ Vamos tentar representar uma faculdade:
 <p>
     <img alt="example1" src="assets/abstracao1.png">
 </p>
+A ideia é entender que, o conceito do "Aluno Bolsista" só é conveniente dentro do escopo de uma faculdade, e essa especificidade ainda sim demanda uma implementação mais robusta, como novos atributos (Valor da bolsa, o seu desconto ou até mesmo qual a natureza da sua bolsa).

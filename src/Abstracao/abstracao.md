@@ -50,3 +50,6 @@ Exatamente. Mesmo que a premissa da Orientação a Objetos seja olhar para o mun
 
 ## Mudando de Exemplo,
 Vamos tentar representar uma faculdade:
+<p>
+    <img alt="example1" src="assets/abstracao1.png">
+</p>

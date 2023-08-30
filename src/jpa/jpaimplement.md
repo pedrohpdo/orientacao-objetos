@@ -71,11 +71,11 @@ public class Tarefa {
 
 Exemplo simples, mas podemos entender como algumas anotações funcionam dentro do Jpa:
 
-### Entity
+### @Entity
 A mais importante das anotações, ela quem indica que os objetos dessa classe será persistida dentro do banco de dados.
 
-### Id
+### @Id
 Indica que determinado atributo será utilizado como chave primária da tabela.
 
-### GeneratedValue
+### @GeneratedValue
 Anotação que faz referência ao @id, onde diz que queremos que o próprio banco de dados seja populada pelo banco, seja ele uma chave "auto_increment" ou "sequence", a depender da base.

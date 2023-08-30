@@ -1,7 +1,9 @@
-# Olá, senhores!
-Esse repositório foi criado para ajudar alunos das turmas que estão em currículo na competência "Programar em Linguagem Orientada e Objetos" da Unifacisa. A princípio, o conteúdo foi colocado apenas para uma aula substituta, mas gostei tanto que do conteúdo que resolvi, a medida do tempo o conteúdo sobre OO deve ser atualizado.
+<h1 style=align:"center">Olá, Jovem!</h1>
+Repositório foi criado para ajudar estudantes iniciantes na área de Java/POO. São anotações que uso ao longo da minha gradução, seja em monitoria, resumos para entregas ou aulas que acabei ministrando ao longo da minha jornada.
 
-Espero que gostem, principalmente você iniciante!
+É um conteúdo básico, mas acho que pode ser muito útil se você tá perdido em alguns conceitos.
+
+Espero que ajude!
 
 ## Contents
 

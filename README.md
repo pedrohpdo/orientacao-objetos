@@ -1,9 +1,16 @@
-<h1 align:"center">Olá, Jovem!</h1>
-Repositório foi criado para ajudar estudantes iniciantes na área de Java/POO. São anotações que uso ao longo da minha gradução, seja em monitoria, resumos para entregas ou aulas que acabei ministrando ao longo da minha jornada.
+<h1 align ="center">Olá, Jovem!</h1>
 
-É um conteúdo básico, mas acho que pode ser muito útil se você tá perdido em alguns conceitos.
+<p align ="center">
+    Repositório foi criado para ajudar estudantes iniciantes na área de Java/POO. São anotações que uso ao longo da minha gradução, seja em monitoria, resumos para entregas ou aulas que acabei ministrando ao longo da minha jornada.
+</p>
 
-Espero que ajude!
+<p align ="center">
+    É um conteúdo básico, mas acho que pode ser muito útil se você tá perdido em alguns conceitos.
+</p>
+
+<p align ="center">
+    Espero que ajude!
+</p>
 
 ## Contents
 

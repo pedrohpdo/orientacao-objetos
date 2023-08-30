@@ -22,6 +22,6 @@ Talvez o framework que mais ande lado a lado com o JPA seja o Hibernate. Caso vo
 
 
 ### References
-[Apostila - UMA INTRODUÇÃO PRÁTICA AO JPA COM HIBERNATE (Alura)](https://www.alura.com.br/apostila-java-web/uma-introducao-pratica-ao-jpa-com-hibernate)
-[Introdução ao JPA (DevMedia)](https://www.devmedia.com.br/introducao-a-jpa-java-persistence-api/28173)
-[Introdução JPA e Hibernate (Nélio Alves)](https://www.youtube.com/watch?v=CAP1IPgeJkw&t=413s)
+###### [Apostila - UMA INTRODUÇÃO PRÁTICA AO JPA COM HIBERNATE (Alura)](https://www.alura.com.br/apostila-java-web/uma-introducao-pratica-ao-jpa-com-hibernate)
+###### [Introdução ao JPA (DevMedia)](https://www.devmedia.com.br/introducao-a-jpa-java-persistence-api/28173)
+###### [Introdução JPA e Hibernate (Nélio Alves)](https://www.youtube.com/watch?v=CAP1IPgeJkw&t=413s)

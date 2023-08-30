@@ -59,7 +59,7 @@ public class Pessoa {
 A princípio, temos 4 modificadores de acesso em Java:
 
 <p>
-    <img src="assets/camadas.jpg">
+    <img src="./assets/camadas.png">
 </p>
 
 ## Public

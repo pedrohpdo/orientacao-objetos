@@ -1,4 +1,4 @@
-# Java Peristence API
+# Java Persistence API
 
 JPA é dita uma especificação que define como frameworks ORM devem persistir os dados da aplicação dentro de uma base relacional. Ou seja, para trabalhar com JPA, você deve utilizar um framework ORM que siga essas restrições.
 

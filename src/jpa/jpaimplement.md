@@ -53,7 +53,10 @@ Alguns dados desse arquivo tem uma maior complexidade, então vamos configurar e
 Depois disso aqui, vamos mapear uma entidade dentro da base.
 
 ## Mapeando uma Entidade
-Mapeando uma entidade/class Tarefa, utilizando anotações. LEMBRANDO QUE TODAS AS ANOTAÇÕES SÃO IMPORTADADAS DO PACOTE <strong>jakarta.persistence</strong>
+Mapeando uma entidade/class Tarefa, utilizando anotações.
+````
+LEMBRANDO QUE TODAS AS ANOTAÇÕES SÃO IMPORTADADAS DO PACOTE jakarta.persistence
+````
 
 ````java
 @Entity

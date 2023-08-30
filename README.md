@@ -1,4 +1,4 @@
-<h1 style=align:"center">Olá, Jovem!</h1>
+<h1 align:"center">Olá, Jovem!</h1>
 Repositório foi criado para ajudar estudantes iniciantes na área de Java/POO. São anotações que uso ao longo da minha gradução, seja em monitoria, resumos para entregas ou aulas que acabei ministrando ao longo da minha jornada.
 
 É um conteúdo básico, mas acho que pode ser muito útil se você tá perdido em alguns conceitos.

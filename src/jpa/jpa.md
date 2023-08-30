@@ -33,7 +33,9 @@ Dentre as principais inclusões com a implementação da JPA, temos:
 
 - <strong> Configurações Simples:</strong> Existe um grande número de características de persistência que a especificação oferece, todas são configuráveis através de anotações, XML ou uma combinação das duas. Anotações são simples de usar, convenientes para escrever e fácil de ler. Além disso, JPA oferece diversos valores defaults, então dependendo do escopo do seu projeto, você pode sair usando JPA sem medo de ser feliz.
 
-## [Guia Rápido para Implementação](https://github.com/pedrohpdo/orientacao-objetos/blob/main/src/jpa/jpaimplement.md)
+<h1 align="center">
+    <a href="https://github.com/pedrohpdo/orientacao-objetos/blob/main/src/jpa/jpaimplement.md">Guia Rápido para Implementação</a>
+</h1>
 
 ### References/Materiais
 ###### [Apostila - UMA INTRODUÇÃO PRÁTICA AO JPA COM HIBERNATE (Alura)](https://www.alura.com.br/apostila-java-web/uma-introducao-pratica-ao-jpa-com-hibernate)

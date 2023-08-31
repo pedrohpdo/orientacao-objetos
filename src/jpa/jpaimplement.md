@@ -74,11 +74,11 @@ public class Tarefa {
 
 Exemplo simples, mas podemos entender como algumas anotações funcionam dentro do Jpa:
 
-### @Entity
-A mais importante das anotações, ela quem indica que os objetos dessa classe será persistida dentro do banco de dados.
+<strong>@Entity:</strong> A mais importante das anotações, ela quem indica que os objetos dessa classe será persistida dentro do banco de dados.
 
-### @Id
-Indica que determinado atributo será utilizado como chave primária da tabela.
+<strong>@Id:</strong>Indica que determinado atributo será utilizado como chave primária da tabela.
 
-### @GeneratedValue
-Anotação que faz referência ao @id, onde diz que queremos que o próprio banco de dados seja populada pelo banco, seja ele uma chave "auto_increment" ou "sequence", a depender da base.
+<strong>@GeneratedValue: </strong>Anotação que faz referência ao @id, onde diz que queremos que o próprio banco de dados seja populada pelo banco, seja ele uma chave "auto_increment" ou "sequence", a depender da base.
+
+## Outras Anotações
+Existem uma gigantesca quantidade de anotações que você vai acabar usando dentro de um framework ORM, e é interessante um conhecimento mais aprofundado. Acesse o User Guide Provido pela própria Hibernate [CLICANDO AQUI](https://docs.jboss.org/hibernate/orm/6.2/userguide/html_single/Hibernate_User_Guide.html)

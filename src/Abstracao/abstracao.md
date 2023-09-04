@@ -53,4 +53,5 @@ Vamos tentar representar uma faculdade:
 <p>
     <img alt="example1" src="assets/abstracao1.png">
 </p>
-A ideia é entender que, o conceito do "Aluno Bolsista" só é conveniente dentro do escopo de uma faculdade, e essa especificidade ainda sim demanda uma implementação mais robusta, como novos atributos (Valor da bolsa, o seu desconto ou até mesmo qual a natureza da sua bolsa).
+A ideia é entender que, o conceito do "Aluno Bolsista" só é conveniente dentro do escopo de uma faculdade, e essa especificidade ainda sim demanda uma implementação diferenciada.
+A ideia é que, dentro do seu sistema, o seu aluno bolsista possa ter características especiais dentro dentro da faculdade, como o recebimento de uma bolsa, descontos, ou algo do tipo.

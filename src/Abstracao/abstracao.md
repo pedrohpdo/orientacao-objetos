@@ -41,6 +41,8 @@ Agora vamos entender usar a gigantesca AMAZON para fazer um contraponto. Pense n
 
         double imposto1;
         double imposto2;
+
+        double[] dimensoesProduto;
     } 
 ````
 E tenho certeza que essa implementação de ser algo próximo da realidade. Mas percebe como a mesma entidade demanda umas abstração diferente

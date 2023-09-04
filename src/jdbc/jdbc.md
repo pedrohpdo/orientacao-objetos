@@ -16,7 +16,6 @@ Se tratam do conjunto de interfaces e métodos que são fornecidos para o usuár
 ## JDBC Drivers
 Software específico para um determinando banco de dados. É responsável por fornecer a comunicação de dados entre a aplicação Java e o banco de dados, tendo a responsabilidade de traduzir os comandos passados pela API JDBC para comandos e protocolos nativos do banco de dados utizado.
 Cada banco de dados requer um driver específico para fazer funcionar.
-<hr>
 
 Elaborando uma linha compreensiva de eventos, podemos mapear a interação dessa forma:
 
@@ -30,20 +29,29 @@ Nesse contexto, vamos trabalhar com o MySQL, e como vimos antes, cada banco de d
 ### Baixando Driver
 Você pode encontrar o driver clicando <a href="https://dev.mysql.com/downloads/connector/j/?os=26" rel="external" target="_blank">aqui</a>. Lembre-se de baixar o arquivo com a extensão ".zip" e o extraia assim que baixar.
 
-Após isso, procure o arquivo com extensão .jar, deve ser algo parecido com isso aqui (mysql-connector-java-{número da versão})
+Após isso, procure o arquivo com extensão .jar, deve ser algo parecido com isso aqui (mysql-connector-java-{versão}.jar)
 
 <p>
-    <img src="assets/driverarchive.png" alt="img-fluxo">
+    <img src="assets/jdbc2.png" alt="img-fluxo">
 </p>
 
 ### Adicionando Driver ao Ambiente
 Agora vamos incorporar o Driver no seu projeto. Na sua IDE (Estou usando o eclipse de referência) crie uma pasta a parte e a nomeie com a sua preferência. Geralmente uso "libs para questão de leitura"
 
 <p>
-    <img src="assets/jdbcarchive.png" alt="img-fluxo">
+    <img src="assets/jdbc3.png" alt="img-fluxo">
 </p>
 
 Agora adicione o driver que acabamos de baixar dentro dessa pasta criada. Você pode tanto fazer pelo explorador de arquivos dentro do sistema, como você pode copiar e colocar direto para o eclipse.
+
+### Adicione o driver ao ClassPath
+Mesmo com seu driver dentro do folder, o Java não entende automáticamente que ela é uma biblioteca que pode ser usada regularmente dentro do seu projeto, então precisamos, explicitamente, mostrar isso ao Java, mas é bem simples.
+
+Botão direito no driver -> Build Path -> Add to Build Path
+
+<p>
+    <img src="assets/jdbc4.png" alt="img-fluxo">
+</p>
 
 # Hora de Brincar
 Agora vamos, de fato entrar em código e fazer nossas primeiras implementações. Algumas considerações vão ser levantadas ao longo do desenvolvimento, mas vamos citá-las a medida que elas aparecem, para fazer sentido.
